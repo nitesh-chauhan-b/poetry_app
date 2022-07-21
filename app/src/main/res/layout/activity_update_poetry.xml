@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdatePoetry">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Update Poetry"
+        app:titleTextColor="@color/black"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/updating_poetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:minHeight="100dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:background="@drawable/poetry_border"
+        android:inputType="textMultiLine"
+        android:hint="Write Poetry From Here...." />
+
+    <EditText
+        android:id="@+id/updating_poetry_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/poetry_border"
+        android:ems="10"
+        android:hint="Author Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Update_poetry"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:background="@drawable/button_bg_design"
+        />
+</LinearLayout>
