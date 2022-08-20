@@ -1,4 +1,4 @@
-# poetry_app
+# Poetry App
 
 
 This is a poetry app developed in java which uses local API which was created using WAMP with PHP.
